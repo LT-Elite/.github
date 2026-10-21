@@ -57,8 +57,8 @@
 <p align="center">
   <a href="https://lt-elite.github.io">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/LT-Elite/.github/raw/main/assets/logo-transparent-blanc.png">
-      <img src="https://github.com/LT-Elite/.github/raw/main/assets/logo-transparent-bleu-nuit.png" alt="LT" height="64">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/LT-Elite/.github/raw/main/assets/mark-blanc.png">
+      <img src="https://github.com/LT-Elite/.github/raw/main/assets/mark-bleu-nuit.png" alt="LT" height="56">
     </picture>
   </a>
 </p>
