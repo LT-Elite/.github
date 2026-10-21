@@ -1,12 +1,16 @@
 <p align="center">
-  <img src="https://github.com/LT-Elite/.github/raw/main/assets/banniere.png" alt="LT ÉLITE — Build · Host · Automate" width="100%">
+  <img src="https://github.com/LT-Elite/.github/raw/main/assets/banniere.png" alt="LT — Build. Host. Automate." width="100%">
 </p>
 
 <h3 align="center">Nous concevons, hébergeons et automatisons des produits numériques.</h3>
 
 <p align="center">
-  <b>LT ÉLITE</b> regroupe nos projets : sites e-commerce, bots Discord, infrastructure auto-hébergée et outils internes.<br>
+  <b>LT</b> regroupe nos projets : sites e-commerce, bots Discord, infrastructure auto-hébergée et outils internes.<br>
   Tout est développé, testé et déployé par nos soins, de l'idée à la mise en production.
+</p>
+
+<p align="center">
+  <a href="https://tech-confort.store"><img src="https://img.shields.io/badge/site-tech--confort.store-3B82F6?style=for-the-badge&labelColor=0B1220" alt="Site : tech-confort.store"></a>
 </p>
 
 ---
@@ -42,7 +46,7 @@
 ---
 
 <p align="center">
-  <img src="https://github.com/LT-Elite/.github/raw/main/assets/logo-transparent-blanc.png#gh-dark-mode-only" alt="LT ÉLITE" height="72">
-  <img src="https://github.com/LT-Elite/.github/raw/main/assets/logo-transparent-bleu-nuit.png#gh-light-mode-only" alt="LT ÉLITE" height="72">
+  <img src="https://github.com/LT-Elite/.github/raw/main/assets/logo-transparent-blanc.png#gh-dark-mode-only" alt="LT" height="72">
+  <img src="https://github.com/LT-Elite/.github/raw/main/assets/logo-transparent-bleu-nuit.png#gh-light-mode-only" alt="LT" height="72">
 </p>
-<p align="center"><sub>© LT ÉLITE — Build · Host · Automate</sub></p>
+<p align="center"><sub>© LT — Build. Host. Automate. · <a href="https://tech-confort.store">tech-confort.store</a></sub></p>
