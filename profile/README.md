@@ -10,7 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://tech-confort.store"><img src="https://img.shields.io/badge/site-tech--confort.store-3B82F6?style=for-the-badge&labelColor=0B1220" alt="Site : tech-confort.store"></a>
+  <a href="https://lt-elite.github.io"><img src="https://img.shields.io/badge/présentation-lt--elite.github.io-3B82F6?style=for-the-badge&labelColor=0B1220" alt="Présentation : lt-elite.github.io"></a>
+  <a href="https://tech-confort.store"><img src="https://img.shields.io/badge/site-tech--confort.store-1E293B?style=for-the-badge&labelColor=0B1220" alt="Site : tech-confort.store"></a>
 </p>
 
 ---
@@ -30,7 +31,6 @@
 |---|---|
 | **Praetorian** | Bot Discord de modération et de gestion de communauté, avec tableau de bord web. |
 | **Maintenance Guard** | Surveillance des sites, alertes et bascule automatique en page de maintenance. |
-| **AutoRain** | Bot Discord, worker et panneau de contrôle. |
 
 ### 🖥️ Infrastructure
 

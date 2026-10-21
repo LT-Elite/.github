@@ -1,0 +1,45 @@
+# Modèle LT : tests et build sur le runner mini PC de LT-Elite (dépôts privés uniquement).
+# Tests et builds sur le mini PC (runner auto-hébergé « minipc »), jamais sur le r630.
+name: CI
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: [self-hosted, minipc]
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Dépendances
+        run: npm ci --no-audit --no-fund
+
+      - name: Lint et types (si présents)
+        run: |
+          npm run --if-present lint
+          npm run --if-present typecheck
+
+      - name: Tests (si présents)
+        run: npm test --if-present
+
+      - name: Build
+        env:
+          NEXT_TELEMETRY_DISABLED: '1'
+        run: npm run --if-present build
+
+      - name: Audit des dépendances (n'échoue que sur critical)
+        run: npm audit --omit=dev --audit-level=critical
+

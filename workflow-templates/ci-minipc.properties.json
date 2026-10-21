@@ -1,0 +1,12 @@
+{
+  "name": "CI LT (mini PC)",
+  "description": "Installe, lint, teste et builde le projet sur le runner auto-hébergé du mini PC LT. Pour les dépôts privés.",
+  "categories": [
+    "JavaScript",
+    "TypeScript",
+    "Node"
+  ],
+  "filePatterns": [
+    "package.json$"
+  ]
+}
